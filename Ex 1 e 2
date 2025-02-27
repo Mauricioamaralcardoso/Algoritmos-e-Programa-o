@@ -1,0 +1,17 @@
+Algoritmo Uni2Exe01
+Inicio
+Var Var1, Var2, Soma: Inteiro;
+Leia (Var1);
+Leia (Var2);
+Soma = Var1 + Var2
+Escreva (Soma);
+Fim.
+
+Algoritmo Uni2Exe02
+Inicio
+Var: Var1, Var2, Multiplicacao: Inteiro;
+Leia (Var1);
+Leia (Var2);
+Multiplicacao = Var1 * Var2
+Escreva (Multiplicacao);
+Fim.
