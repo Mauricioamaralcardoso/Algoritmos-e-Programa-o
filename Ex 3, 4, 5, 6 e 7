@@ -1,0 +1,90 @@
+Uni2Exe03 [1] [1002]
+Calcule a área da circunferencia elevando o valor de ao quadrado e multiplicando por Pi (Pi = 3.14159)
+
+Algoritmo Uni2Exe03
+Inicio
+Var C,R, Pi : Real;
+Pi = 3,14159;
+/* Entradas */
+Escreva("Informe o valor do raio:"
+Leia(R);
+/* Processo */
+C = R * R * Pi;
+/* Saídas */
+Escreva("A circunferência é ");
+Escreva(C);
+Fim.
+
+
+Uni2Exe04 [1][1005]
+Leia dois valores de ponto flutuante e calcule a média ponderada sabendo que a nota A tem peso 3,5 e a nota B 7,5 (a soma dos pesos é 11), sendo que a nota vai de 0,0 a 10,0.
+
+Algoritmo Uni2Exe04 
+Inicio
+Var NotaA,NotaB,MediaP : Real
+Escreva("Informe a nota A (0.0 a 10.0): ");
+Leia(A);
+Escreva("Informe a nota B (0.0 a 10.0): ");
+Leia(B);
+/* Processo */
+MediaP = ((A * 3.5) + (B * 7.5)) / 11;
+/* Saída */
+Escreva("A média ponderada das notas é ",FORMATAR(MediaP,1));
+Fim.
+
+Uni2Exe05 [1][1007]
+Leia quatro valores inteiros A, B, C e D. A seguir, calcule e mostre a diferença do produto de A e B pelo produto de C e D segundo a fórmula: DIFERENCA = (A * B - C * D).
+
+Algoritmo Uni2Exe05
+Inicio
+Var A, B, C, D, DIFERENCA : Inteiro;
+/* Entradas */
+Escreva("Informe o valor de A: ");
+Leia(A)
+Escreva("Informe o valor de B: ");
+Leia(B)
+Escreva("Informe o valor de C: ");
+Leia(C)
+Escreva("Informe o valor de D: ");
+Leia(D)
+/* Processo */
+DIFERENCA = (A * B - C * D);
+/* Saídas */
+Escreva("A diferença calculada é ", DIFERENCA);
+Fim.
+
+Uni2Exe06 [1][1008]
+Escreva um programa que leia o número de um funcionário, seu número de horas trabalhadas, 
+o valor que recebe por hora e calcule o salário desse funcionário. A seguir, mostre o número e o salário do funcionário, com duas casas decimais.
+
+Algoritmo Uni2Exe06
+inicio
+Var NroFun, HorTrab, VlrHora, Salario : Real;
+/* Entradas */
+Escreva("informe o número do funciorario: ")
+Leia(NroFun)
+Escreva("Informe a quantidade de horas trabalhadas: ");
+Leia(HorTrab);
+/* Processo */
+Salario = HorTrab * VlHora;
+/* Saídas */
+Escreva(" O funcionário "+NroFun+" receberá "+ Salario " reais");
+Escreva(" receberá " + FORMATAR(Salario, 2) + "reais");
+Fim.
+
+Algoritmo Uni2Exe07
+Inicio
+Var Nome: Caracter;
+    Fixo, Vendas, Comissao, Receber : Real;
+/* Entradas */
+Escreva("Informe o nome do vendedor: ");
+Leia(Nome);
+Escreva("Informe o salário fixo do vendedor: ");
+Leia(Fixo);
+Escreva("Infome o total de vendas efetuadas: ");
+Leia(Vendas);
+/* Processo */
+Receber = Fixo + (Vendas * 0.15)
+/* Saídas */
+Escreva("O total a receber é de " + FORMATAR(Receber, 2));
+Fim.
