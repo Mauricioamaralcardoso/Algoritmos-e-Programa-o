@@ -1,0 +1,15 @@
+Inicio
+Var horasMes, horasValor, salarioTotal, salarioExtra : Real;
+Escreva("Entre com as horas trabalhadas do mês: ");
+Leia(horasMes);
+Escreva("Entre com a valor pago por hora: ");
+Leia(horasValor);
+salarioTotal = horasMes * horasValor;
+Se (horasMes > 160)
+   Inicio
+   salarioExtra = (horasMes - 160) * (horasValor / 2);
+   salarioTotal = salarioTotal + salarioExtra;
+   Fim;
+Fim se;
+Escreva("O salário total é "+ salarioTotal);
+Fim.
