@@ -13,3 +13,41 @@ Se (horasMes > 160)
 Fim se;
 Escreva("O salário total é "+ salarioTotal);
 Fim.
+
+Elabore um algoritmo que solicite a idade de um individuo e responda;
+1) Se menor de 2 anos informe que é bebê;
+2) Se maior que 2 e menor de 12 informe que é criança;
+3) Se maior que 12 e menor que 18 informe que é adolescente;
+4) Se maior que 18 e menor que 80 informe que é adulto;
+5) Se maior que 80 informe que é ancião;
+Não existe idade negativa.			
+
+Algoritmo ExercicioIdade;
+Inicio
+Var Idade : Inteiro
+Escreva("Informe a idade do indivíduo: ")
+Leia(Idade);	1
+Se (Idade < 0) OU (Idade > 120)
+   Escreva("Idade inválida!");
+Senão
+   Se (Idade < 2)
+      Escreva("Indivíduo é um bebê);
+   Senão
+      Se (Idade >= 2) E (Idade < 12)
+         Escreva("Indivíduo é criança");
+      Senão 
+         Se (Idade => 12) E (Idade < 18)
+            Escreva("Indivíduo é adolescente");
+         Senão
+            Se (Idade => 18) E (Idade < 80 )
+               Escreva("Indivíduo é adulto");
+            Senão
+               Se (Idade >=80) E (Idade <= 120)
+                  Escreva("Indivíduo é ancião");
+               Fim se;
+            Fim se;
+         Fim se;
+      Fim se;
+   Fim se;
+Fim se;
+Fim.
