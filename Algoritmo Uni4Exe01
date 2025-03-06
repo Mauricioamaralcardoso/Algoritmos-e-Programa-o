@@ -51,3 +51,15 @@ Senão
    Fim se;
 Fim se;
 Fim.
+
+Algoritmo Uni4Exe02
+Inicio
+Var valor : Inteiro;
+Escreva ("Entre com  um valor inteiro maior do que 0: ");
+Leia(valor)
+Se (valor % 2 = 0)
+   Escreva("Número é par");
+Senão
+   Escreva("Número é ímpar");
+Fim se;
+Fim.
