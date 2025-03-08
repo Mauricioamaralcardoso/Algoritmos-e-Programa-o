@@ -62,3 +62,26 @@ Senao
    Escreva("Por favor informe uma letra válida (M/F/I): ");
 Fim escolha;
 Fim. 
+
+Algoritmo Uni4Exe07
+Inicio
+Var peso, pesoExcedido : Inteiro;
+    valorPagar, qtdAdicional : Real
+Escreva("Entre com peso da carga: ");
+Leia(peso);
+valorPagar = 0
+Se (peso <= 50)
+   valorPagar = 0.45;
+Senão
+   Inicio
+   pesoExcedido = peso - 50;
+   qtAdicional + (pesoExcedido / 20) + 1;
+   valorPagar = 0.45 + 0.45 * qtAdicional;
+   Fim;
+Fim se;
+Escreva("Custo do selo: " + valorPagar);
+Fim.
+
+
+Questões de 4,8 e 12;
+
