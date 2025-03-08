@@ -1,0 +1,64 @@
+Dados dois numeros inteiros descreva um algoritimo para informar o maior valor entre eles.
+
+Algoritimo Uni4Exe03;
+Inicio
+Var valor1, valor2 : inteiro;
+Escreva("Informe o primeiro valor: ");
+leia(valor1);
+Escreva("Informe o segundo valor: ");
+Leia(valor2);
+
+Se (valor1 = valor2)
+   Escreva("Os valores informados são iguais");
+Senao
+   Se (valor1 > valor2)
+      Escreva("O primeiro valor é maior do que o segundo.")
+   Senao
+      Escreva("O segundo valor é maior do que o primeiro.")
+   Fim se;
+Fim se;
+Fim.
+
+Dado um numero de ponto flutuante maior que 0, informe se foram digitadas ou nao casas decimais no número.
+AlgoritimoUni4Exe04
+
+Inicio
+Var Numero : Real;
+Escreva(Informe um número qualquer maior do que 0: ");
+Leia(Numero);
+Se (Numero <= 0)
+   Escreva("Informe um número válido maior do que zero.");
+Senao
+   Se (FRAC(Numero) > 0)
+      Escreva("O número informado possui casas decimais");
+   Senao
+      Escreva("O número informado é um inteiro sem casas decimais.");
+   Fim se;
+Fim se;
+Fim.
+
+Algoritmo Uni4Exe05
+Inicio
+Var Resposta : Booleana
+Escreva("A cor é azul?");
+Leia(resposta);
+Se (resposta = TRUE)
+   Escreva("Sim")
+Senão
+   Escreva("Não")
+Fim se;
+Fim.
+
+Algoritmo Uni4Exe06
+Inicio
+Var Sexo : Caracter;
+Escreva("Informe o caracter correspondente ao sexo da pessoa (M/F/I): ");
+Leia(Sexo);
+Escolha
+   'M' : Escreva("Masculino");
+   'F' : Escreva("Feminino");
+   'I' : Escreva("Não Informado");
+Senao
+   Escreva("Por favor informe uma letra válida (M/F/I): ");
+Fim escolha;
+Fim. 
