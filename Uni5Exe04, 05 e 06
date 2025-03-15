@@ -1,0 +1,58 @@
+Algoritimo Uni5Exe04
+
+Inicio
+Var Numerador, Denominador, S : Real;
+N : Inteiro;
+Inicio
+S = 0;
+Numerador = 3;
+Denominador = 2;
+Para N de 1 até 20 faça
+Inicio
+S = S + (Numerador / Denominador);
+Numerador = Numerador + 2;
+Denominador = Denominador + (N + 1) * 2;
+Fim;
+Fim para
+Escreva("A soma das 20 primeiras frações é: ", soma);
+Fim
+
+Escreva("O valor de n deve ser maior que 2.");
+Senão
+Inicio
+V1 = 8;
+V2 = 10;
+Escreva (V1, " ", V2, " ");
+Para I de 3 até N faça
+Inicio
+se (I % 2 = 1)
+Inicio
+V1 = V1 * 2;
+Escreva(V1, " ");
+Fim;
+Senão
+Inicio
+V2 = + 2;
+Escreva(V2, " ");
+Fim;
+Fim se;
+
+
+
+Uni5Exe06.java
+Descreva um algoritmo que leia a altura de 20 pessoas e calcule a média de altura das mesmas.
+
+Algoritmo Uni5Exe06
+Inicio
+Var Altura, Soma : Real;
+    I : Inteiro;
+Soma = 0
+Para I de 1 até 20 Faça
+   Inicio
+   Escreva("Informe a altura da pessoa " + I + ": ");
+   Leia(Altura);
+   Soma = Soma + Altura;
+   Fim;
+Fim para;
+Escreva("A média de altura das 20 pessoas é " + (Soma / 20));
+Fim
